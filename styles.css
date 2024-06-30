@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    background: url('bg.png') no-repeat center center;
+    background-size: cover;
+    opacity: 0.8;
+}
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    height: 100px;
+    background-color: #f0f0f0;
+}
+
+.sitename{
+    float: left;
+    margin-left: 500px;
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    font-family: Copperplate Papyrus;
+
+}
+
+.contact{
+   float: right;
+    width: 80px;
+    height: 80px;
+    font-family: Arial,
+}
+
+.logo img {
+    float: left;
+    background-image: url('logo.png');
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+
+.welcome {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px;
+}
+
+.welcome h1, .welcome h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.welcome p {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size: 14px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.left-text, .right-image, .left-image, .right-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.video {
+    grid-column: 1 / span 2;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-size: 12px;
+}
